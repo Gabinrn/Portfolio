@@ -18,7 +18,7 @@ export const DEFAULT_IMAGES = [
       source: full01, 
       thumbnail: thumb01,
       caption: 'Job-Discount',
-      link: 'https://cv-gabin-neron.go.yo.fr/',
+      link: 'https://www.google.com',
       description: 'The goal of this project is to make a site to advertise job offers like Indeed.',
     },
     {
