@@ -5,8 +5,8 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Gabin NERON'
+  const siteDescription = 'Welcome to the website of Gabin NERON, here you will find all of my project.'
 
   return (
     <Layout>
@@ -19,84 +19,41 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
+              About me
               <br />
-              magna sed accumsan arcu neque.
+              Hello, i'm <strong>Gabin NERON</strong>
             </h2>
           </header>
-          <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
-          </p>
+          <h3>
+          As a student at Epitech Lyon, I'm passionate about technology!
+          Currently working on several projects,
+          I regularly update my GitHub profile : <a href="https://github.com/Gabinrn/" className="icon fa-github">  Here</a>
+          </h3>
           <ul className="actions">
             <li>
-              <a href="#" className="button">
-                Learn More
+              <a href="https://gofile.io/d/8ad1c1" className="button"><i class="icon fa-download"> </i> 
+                Download my resume
               </a>
             </li>
           </ul>
         </section>
 
         <section id="two">
-          <h2>Recent Work</h2>
+          <h2>Portfolio</h2>
 
           <Gallery />
 
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Full Portfolio
-              </a>
-            </li>
-          </ul>
         </section>
 
         <section id="three">
           <h2>Get In Touch</h2>
-          <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
-          </p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <form method="post" action="#">
-                <div className="row uniform 50%">
-                  <div className="6u 12u$(xsmall)">
-                    <input
-                      type="text"
-                      name="name"
-                      id="name"
-                      placeholder="Name"
-                    />
-                  </div>
-                  <div className="6u 12u$(xsmall)">
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="Email"
-                    />
-                  </div>
-                  <div className="12u">
-                    <textarea
-                      name="message"
-                      id="message"
-                      placeholder="Message"
-                      rows="4"
-                    ></textarea>
-                  </div>
-                </div>
-                <ul className="actions" style={{ marginTop: 30 }}>
-                  <li>
-                    <input type="submit" value="Send Message" />
-                  </li>
-                </ul>
-              </form>
+              <p>
+                 In order to get in touch you can contact me on <a href="https://github.com/Gabinrn/">Linkedin</a>, <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRrqJPsrMQGdqZSRxJZWMcfNRncTGJznfrmkmNmLBgNZXtXXwntXZdxlnpWFSCHqHJxMJH">Gmail</a>.
+                 <br />
+                 I will try to answer your request as soon as possible.
+              </p>
             </div>
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
@@ -104,23 +61,21 @@ const HomeIndex = () => {
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  1234 Somewhere Rd.
+                  Lyon 8, 69008
                   <br />
-                  Nashville, TN 00000
-                  <br />
-                  United States
+                  France
                 </li>
                 <li>
                   <h3 className="icon fa-mobile">
                     <span className="label">Phone</span>
                   </h3>
-                  000-000-0000
+                  06-04-53-94-72
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  gabin.neron@epitech.eu
                 </li>
               </ul>
             </div>
