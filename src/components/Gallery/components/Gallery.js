@@ -13,6 +13,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
     setSelectedIndex(selectedIndex)
   }, [lightboxIsOpen])
 
+
   return (
     <div>
       {images && (<div className="row">
@@ -42,6 +43,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
     </div>
   )
 }
+
 
 Gallery.displayName = 'Gallery'
 Gallery.propTypes = {

@@ -1,25 +1,21 @@
 import React, { useCallback } from 'react'
 import PropTypes from 'prop-types'
 
-const GalleryItem = ({id, source, thumbnail, caption, link, description, position, toggleLightbox}) => {
+const GalleryItem = ({id, source, source1, source2, source3, source4, thumbnail, caption, link, afterlink, description, position, toggleLightbox}) => {
 
     const onClick = useCallback((e) => {
         e.preventDefault()
         toggleLightbox(position)
     }, [position, toggleLightbox]);
 
-    return (<article key={id} className="6u 12u$(xsmall) work-item">
-        <a
-        className="image fit thumb"
-        href={source}
-        onClick={onClick}
-        >
-        <img src={thumbnail} />
-        </a>
 
-        <h2><a href={link}> {caption} | <i class="icon fa-external-link"></i>  </a> </h2>
+    return (
+    <article key={id} className="6u 12u$(xsmall) work-item">
+        <a className="image fit thumb" href={source} onClick={onClick}><img src={thumbnail} /></a>
+        <h2><a href={link} className=""> {caption}</a></h2>
         <p>{description}</p>
-    </article>)
+    </article> )
+
 };
 
 GalleryItem.displayName = 'GalleryItem'

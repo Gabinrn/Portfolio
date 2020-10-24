@@ -1,4 +1,8 @@
 import full01 from '../../../assets/images/fulls/01.jpg'
+// import full01p2 from '../../../assets/images/fulls/01-2.jpg'
+// import full01p3 from '../../../assets/images/fulls/01-3.jpg'
+// import full01p4 from '../../../assets/images/fulls/01-4.jpg'
+// import full01p5 from '../../../assets/images/fulls/01-5.jpg'
 import full02 from '../../../assets/images/fulls/02.jpg'
 import full03 from '../../../assets/images/fulls/03.jpg'
 import full04 from '../../../assets/images/fulls/04.jpg'
@@ -14,15 +18,30 @@ import thumb06 from '../../../assets/images/thumbs/06.jpg'
 
 export const DEFAULT_IMAGES = [
     {
-      id: '1',
+      id: '2',
       source: full01, 
       thumbnail: thumb01,
       caption: 'Job-Discount',
-      link: 'https://www.google.com',
+      link: 'https://github.com/Gabinrn/Epitech-Project-Web',
       description: 'The goal of this project is to make a site to advertise job offers like Indeed.',
     },
+    // {
+    //   source: full01p2,
+    // },
+    // {
+
+    //   source: full01p3,
+    // },
+    // {
+
+    //   source: full01p4,
+    // },
+    // {
+
+    //   source: full01p5,
+    // },
     {
-      id: '2',
+      id: '3',
       source: full02,
       thumbnail: thumb02,
       caption: 'Web Resume',
@@ -30,7 +49,7 @@ export const DEFAULT_IMAGES = [
       description: 'As the title says, the goal here was to make his CV from a website and the css Materialize library.',
     },
     {
-      id: '3',
+      id: '4',
       source: full03,
       thumbnail: thumb03,
       caption: 'Project 3',
@@ -38,7 +57,7 @@ export const DEFAULT_IMAGES = [
       description: 'For the moment no other project is available yet.',
     },
     {
-      id: '4',
+      id: '5',
       source: full04,
       thumbnail: thumb04,
       caption: 'Project 4',
@@ -46,7 +65,7 @@ export const DEFAULT_IMAGES = [
       description: 'For the moment no other project is available yet.',
     },
     {
-      id: '5',
+      id: '6',
       source: full05,
       thumbnail: thumb05,
       caption: 'Project 5',
@@ -54,7 +73,7 @@ export const DEFAULT_IMAGES = [
       description: 'For the moment no other project is available yet.',
     },
     {
-      id: '6',
+      id: '7',
       source: full06,
       thumbnail: thumb06,
       caption: 'Project 6',

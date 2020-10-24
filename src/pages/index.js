@@ -19,13 +19,12 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              About me
-              <br />
-              Hello, i'm <strong>Gabin NERON</strong>
+              About me 
+               <p><strong>Hello, i'm Gabin NERON</strong></p>
             </h2>
           </header>
           <h3>
-          As a student at Epitech Lyon, I'm passionate about technology!
+          As a student at Epitech Lyon, I'm passionate about technology !
           Currently working on several projects,
           I regularly update my GitHub profile : <a href="https://github.com/Gabinrn/" className="icon fa-github">  Here</a>
           </h3>
