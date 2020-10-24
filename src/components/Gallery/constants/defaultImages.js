@@ -46,7 +46,7 @@ export const DEFAULT_IMAGES = [
       thumbnail: thumb02,
       caption: 'Web Resume',
       link: 'https://cv-gabin-neron.go.yo.fr/',
-      description: 'As the title says, the goal here was to make his CV from a website and the css Materialize library.',
+      description: 'As the title says, the goal here was to make my resume from a website and by using the Materialize css library.',
     },
     {
       id: '4',
