@@ -33,7 +33,7 @@ const PageIndex = () => {
                 Return
               </a>
             
-              <a style={{marginLeft: "auto", marginRight: "auto" , textAlign: 'center' }} href="https://github.com/Gabinrn/Epitech-Project-Web" className="button"><i class="icon fa-github" style={{marginRight: "4px"}} > </i>GitHub </a>
+              <a style={{marginLeft: "auto", marginRight: "auto" , textAlign: 'center' }} href="https://github.com/Gabinrn/Epitech-Project-Web" target="_blank" className="button"><i class="icon fa-github" style={{marginRight: "4px"}} > </i>GitHub </a>
           </div>
         </section>
 
@@ -65,7 +65,7 @@ const PageIndex = () => {
           <div className="row">
             <div className="8u 12u$(small)">
               <p>
-                 In order to get in touch you can contact me on <a href="https://linkedin.com/in/gabinneron/">Linkedin</a>, <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRrqJPsrMQGdqZSRxJZWMcfNRncTGJznfrmkmNmLBgNZXtXXwntXZdxlnpWFSCHqHJxMJH">Gmail</a>.
+                 In order to get in touch you can contact me on <a href="https://linkedin.com/in/gabinneron/" target="_blank">Linkedin</a>, <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRrqJPsrMQGdqZSRxJZWMcfNRncTGJznfrmkmNmLBgNZXtXXwntXZdxlnpWFSCHqHJxMJH" target="_blank">Gmail</a>.
                  <br />
                  I will try to answer your request as soon as possible.
               </p>
