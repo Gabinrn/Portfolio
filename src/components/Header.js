@@ -2,9 +2,15 @@ import React from 'react'
 
 import Footer from './Footer'
 import avatar from '../assets/images/avatar.jpg'
+import sample from '../assets/images/bg.mp4';
 
 const Header = () => (
   <header id="header">
+    <div class="bgvids">
+    <video class="glass" loop autoPlay muted>
+        <source src={sample} type="video/mp4" />
+    </video>
+    </div>
     <div className="inner">
       <a href="#" className="image avatar">
         <img src={avatar} alt="" />

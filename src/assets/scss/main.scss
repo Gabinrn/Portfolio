@@ -941,6 +941,22 @@
 			margin: 0;
 		}
 
+		.glass{
+			margin-left: 225px;
+		}
+		
+
+		.bgvids {
+			right: 0;
+			top: 0;
+  			border-radius: 4px;
+			width: 1690px;
+			overflow: hidden;
+			display: block;
+			z-index: -15;
+			position: absolute;
+		}
+
 		.image.avatar {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
 			width: 6.25em;

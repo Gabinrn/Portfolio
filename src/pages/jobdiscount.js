@@ -29,11 +29,11 @@ const PageIndex = () => {
           </div>
           
           <div style={{display: 'flex'}}>
-              <a style={{display: 'flex', marginLeft: "auto", marginRight: "auto"}} href="/" className="button"><i class="icon fa-return"> </i> 
+              <a style={{marginLeft: "auto", marginRight: "auto", textAlign: 'center' }} href="/" className="button"><i class="icon fa-return"> </i> 
                 Return
               </a>
             
-              <a style={{display: 'flex', marginLeft: "auto", marginRight: "auto"}} href="https://github.com/Gabinrn/Epitech-Project-Web" className="button">  <i class="icon fa-github"> </i> GitHub </a>
+              <a style={{marginLeft: "auto", marginRight: "auto" , textAlign: 'center' }} href="https://github.com/Gabinrn/Epitech-Project-Web" className="button"><i class="icon fa-github" style={{marginRight: "4px"}} > </i>GitHub </a>
           </div>
         </section>
 
@@ -41,7 +41,7 @@ const PageIndex = () => {
           <h2>The Project</h2>
 
          <h4>The goal of this project is to make a site to advertise job offers like Indeed. Thus, we have to work on the Front, but also on the Back.</h4>
-          <p>Indeed it aims to achieve :</p>
+          <p>Here, it aims to realise :</p>
           <ul>
             <li>A database to store job offers.</li>
             <li>A web page (front end) using Javascript technologies to display an online job board as well as an administration page for the admin user. </li>
