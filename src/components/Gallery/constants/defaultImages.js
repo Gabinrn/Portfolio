@@ -1,8 +1,4 @@
 import full01 from '../../../assets/images/fulls/01.jpg'
-// import full01p2 from '../../../assets/images/fulls/01-2.jpg'
-// import full01p3 from '../../../assets/images/fulls/01-3.jpg'
-// import full01p4 from '../../../assets/images/fulls/01-4.jpg'
-// import full01p5 from '../../../assets/images/fulls/01-5.jpg'
 import full02 from '../../../assets/images/fulls/02.jpg'
 import full03 from '../../../assets/images/fulls/03.jpg'
 import full04 from '../../../assets/images/fulls/04.jpg'
@@ -22,24 +18,9 @@ export const DEFAULT_IMAGES = [
       source: full01, 
       thumbnail: thumb01,
       caption: 'Job-Discount',
-      link: 'https://github.com/Gabinrn/Epitech-Project-Web',
+      link: '../jobdiscount',
       description: 'The goal of this project is to make a site to advertise job offers like Indeed.',
     },
-    // {
-    //   source: full01p2,
-    // },
-    // {
-
-    //   source: full01p3,
-    // },
-    // {
-
-    //   source: full01p4,
-    // },
-    // {
-
-    //   source: full01p5,
-    // },
     {
       id: '3',
       source: full02,

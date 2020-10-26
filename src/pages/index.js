@@ -49,7 +49,7 @@ const HomeIndex = () => {
           <div className="row">
             <div className="8u 12u$(small)">
               <p>
-                 In order to get in touch you can contact me on <a href="https://github.com/Gabinrn/">Linkedin</a>, <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRrqJPsrMQGdqZSRxJZWMcfNRncTGJznfrmkmNmLBgNZXtXXwntXZdxlnpWFSCHqHJxMJH">Gmail</a>.
+                 In order to get in touch you can contact me on <a href="https://linkedin.com/in/gabinneron/">Linkedin</a>, <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRrqJPsrMQGdqZSRxJZWMcfNRncTGJznfrmkmNmLBgNZXtXXwntXZdxlnpWFSCHqHJxMJH">Gmail</a>.
                  <br />
                  I will try to answer your request as soon as possible.
               </p>
