@@ -7,7 +7,7 @@ import sample from '../assets/images/bg.mp4';
 const Header = () => (
   <header id="header">
     <div class="bgvids">
-    <video class="glass" loop autoPlay muted>
+    <video class="glass" loop autoPlay muted preload="auto">
         <source src={sample} type="video/mp4" />
     </video>
     </div>
