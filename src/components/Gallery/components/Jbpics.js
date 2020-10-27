@@ -53,17 +53,7 @@ const cssstyle = `
   padding: 0px 40px 40px 40px;
   width: 400px;
 }
-h3 {
-    background: #0097FF ;
-    color: #fff;
-    font-size: 36px;
-    line-height: 100px;
-    margin: 10px;
-    padding: 2%;
-    position: relative;
-    text-align: center;
-    border-radius: 10px;
-}
+
 .slick-next:before, .slick-prev:before {
     color: black;
 }
