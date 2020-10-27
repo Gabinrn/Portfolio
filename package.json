@@ -13,6 +13,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
+    "react-image-magnify": "^2.7.4",
     "react-images": "^1.0.0",
     "react-slick": "^0.27.12",
     "slick-carousel": "^1.8.1"

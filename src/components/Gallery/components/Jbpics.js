@@ -12,14 +12,14 @@ export default class SimpleSlider extends Component {
     const settings = {
       dots: true,
       infinite: true,
-      adaptiveHeight: true,
       arrows: true,
-      speed: 300,
+      speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
     };
     return (
       <div>
+        <style>{cssstyle}</style>
         <Slider {...settings}>
           <div>
           <img className="image fit thumb" src={full01} />
@@ -46,3 +46,25 @@ export default class SimpleSlider extends Component {
     );
   }
 }
+
+const cssstyle = `
+.container {
+  margin: 0 auto;
+  padding: 0px 40px 40px 40px;
+  width: 400px;
+}
+h3 {
+    background: #0097FF ;
+    color: #fff;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+}
+.slick-next:before, .slick-prev:before {
+    color: black;
+}
+`
