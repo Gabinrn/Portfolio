@@ -26,11 +26,11 @@ const HomeIndex = () => {
           <h3>
           As a student at Epitech Lyon, I'm passionate about technology !
           Currently working on several projects,
-          I regularly update my GitHub profile : <a href="https://github.com/Gabinrn/" target="_blank" className="icon fa-github">  Here</a>
+          I regularly update my GitHub profile : <a href="https://github.com/Gabinrn/" target="_blank" rel="noopener" className="icon fa-github">  Here</a>
           </h3>
           <ul className="actions">
             <li>
-              <a href="https://gofile.io/d/8ad1c1" target="_blank" className="button"><i class="icon fa-download"> </i> 
+              <a href="https://gofile.io/d/8ad1c1" target="_blank" rel="noopener" className="button"><i class="icon fa-download"> </i> 
                 Download my resume
               </a>
             </li>
@@ -49,7 +49,7 @@ const HomeIndex = () => {
           <div className="row">
             <div className="8u 12u$(small)">
               <p>
-                 In order to get in touch you can contact me on <a href="https://linkedin.com/in/gabinneron/" target="_blank">Linkedin</a>, <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRrqJPsrMQGdqZSRxJZWMcfNRncTGJznfrmkmNmLBgNZXtXXwntXZdxlnpWFSCHqHJxMJH" target="_blank">Gmail</a>.
+                 In order to get in touch you can contact me on <a href="https://linkedin.com/in/gabinneron/" target="_blank" rel="noopener">Linkedin</a>, <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRrqJPsrMQGdqZSRxJZWMcfNRncTGJznfrmkmNmLBgNZXtXXwntXZdxlnpWFSCHqHJxMJH" target="_blank" rel="noopener">Gmail</a>.
                  <br />
                  I will try to answer your request as soon as possible.
               </p>

@@ -901,9 +901,9 @@
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'flex-end');
 		@include vendor('justify-content', 'space-between');
-		background-color:		_palette(accent2, bg);
+		// background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
-		background-image:		url('images/overlay.png'),			url('../images/bg.jpg');
+		// background-image:		url('images/overlay.png'),			url('../images/bg.jpg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto;
@@ -1517,3 +1517,25 @@
 		width: 100%;
 	}
 }
+
+@media screen and (max-width: 980px) {
+	#header {
+		padding: ($size-header-pad * 2) $size-header-pad;
+		
+	.glass{
+		margin-left: 225px;
+		margin-top: -450px;
+	}
+	
+
+	.bgvids {
+		right: 0;
+		top: 0;
+		border-radius: 4px;
+		width: 1690px;
+		overflow: hidden;
+		display: block;
+		z-index: -100;
+		position: absolute;
+	}
+	}}
